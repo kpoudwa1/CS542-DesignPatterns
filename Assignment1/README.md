@@ -6,9 +6,9 @@ The project is for allocating courses to students based on their priority (acade
 
 -----------------------------------------------------------------------
 ## Inputs
-Courses_Info.txt with the following format: <COURSE_NAME>-CAPACITY:<COURSE_CAPACITY>; CLASS_TIMING: <CLASS_TIMING>
-Student_Preference.txt with the following format: <STUDENT_ID> <6_PREFERENCES>; STUDENT_LEVEL: <STUDENT_LEVEL>
-Expected values for <STUDENT_LEVEL>: FIRST_YEAR, SECOND_YEAR, THIRD_YEAR 
+Courses_Info.txt with the following format: <COURSE_NAME>-CAPACITY:<COURSE_CAPACITY>; CLASS_TIMING: <CLASS_TIMING><br/>
+Student_Preference.txt with the following format: <STUDENT_ID> <6_PREFERENCES>; STUDENT_LEVEL: <STUDENT_LEVEL><br/>
+Expected values for <STUDENT_LEVEL>: FIRST_YEAR, SECOND_YEAR, THIRD_YEAR
 
 -----------------------------------------------------------------------
 Following are the commands and the instructions to run ANT on your project.
