@@ -4,6 +4,15 @@
 ## Description
 This project implements a backup system for the courses allocated to the students. The data structure used for storing the student information is Binary Search Tree (BST), since the BST supports the following operations insert, search and delete nodes. Each node consists of bNumber (student id) and list of allocated courses. The bNumber is used as key for the BST. Since a student can be allocated to multiple courses, the allocated courses are stored using a list. The BST itself is backed up using the observer pattern. There are two backup trees, which are copies of the original tree and are maintained using the Observer pattern. Each node of the tree implements the SubjectI interface and ObserverI interface.
 
+**Implementation of Observer pattern**<br/>
+Whenever a new node is created, two clones of the node are created as backup nodes and reference to the are stored in a data structure with the original node. The notification of backup nodes takes place when there are changes in the original node. The changes take place in the following scenarios:
+
+1) Insertion<br/>
+Whenever a new course is added to the original node, the corresponding backup nodes are also updated.
+
+2) Deletion<br/>
+Whenever a course from the original node is deleted, the course from the corresponding backup nodes is also deleted.
+
 -----------------------------------------------------------------------
 ## Inputs
 input_file.txt with the following format: <B_NUMBER>:<ALLOCATED_COURSE><br/>
