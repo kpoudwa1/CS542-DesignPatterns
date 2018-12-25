@@ -2,7 +2,6 @@ package coursesRegistration.scheduler;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import coursesRegistration.beans.Allocation;
 import coursesRegistration.beans.Course;
 import coursesRegistration.beans.Student;

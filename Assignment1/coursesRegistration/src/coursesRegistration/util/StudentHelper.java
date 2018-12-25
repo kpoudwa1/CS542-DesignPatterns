@@ -2,7 +2,6 @@ package coursesRegistration.util;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import coursesRegistration.beans.Student;
 import coursesRegistration.beans.StudentLevel;
 

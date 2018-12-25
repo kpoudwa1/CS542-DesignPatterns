@@ -3,7 +3,6 @@ package coursesRegistration.util;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.List;
-
 import coursesRegistration.beans.Allocation;
 
 /**

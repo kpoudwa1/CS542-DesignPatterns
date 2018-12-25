@@ -1,6 +1,6 @@
 package coursesRegistration.driver;
-import java.util.List;
 
+import java.util.List;
 import coursesRegistration.beans.Allocation;
 import coursesRegistration.beans.Course;
 import coursesRegistration.scheduler.Scheduler;
