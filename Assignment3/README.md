@@ -14,7 +14,7 @@ DEBUG_VALUE=0 [Prints the line "The sume of all theprime numbers is: XYZ"]<br/>
 
 -----------------------------------------------------------------------
 ## Inputs
-input_file.txt with the following format: <Number><br/>
+input_file.txt with the following format: <NUM><br/>
 number_of_threads between: 1-5<br/>
 debug_level between: 0-4
 
