@@ -5,12 +5,12 @@
 This project uses State pattern for maintaining the security state of an airport. The factors that affect the security implementation of an airport are known as SecurityFactors. The operation of increasing/decreasing security is increaseOrDecreaseSecurity(). The following are the states that an airport can be in,
 - LOW_RISK
 - MODERATE_RISK
-- HIGH_RISK<br/>
+- HIGH_RISK<br/><br/>
 Two metrics are used to determine the state of the airport. The metrics are,
 - Average Traffic Per Day (avgTrafficPerDay)<br/>
   Computed as ⇒ Total number of travellers ÷ Total number of days
 - Average Prohibited Items Per Day (avgProhibitedItemsPerDay)<br/>
-  Computed as ⇒ Total number of prohibited items ÷ Total number of days<br/>
+  Computed as ⇒ Total number of prohibited items ÷ Total number of days<br/><br/>
 The list of prohibited items,
 - Grains
 - NailCutters
@@ -57,18 +57,18 @@ DEBUG_VALUE=0 [Prints the operation ids of the tasks needed to be performed for 
 
 -----------------------------------------------------------------------
 ## Inputs
-input_file.txt with the following format: <NUM_TO_BE_CHECKED><br/>
-number_of_threads between: 1-5<br/>
+input_file.txt with the following format: Day:<DAY_NO>;Item:<ITEM><br/>
+output_file.txt: Output file path<br/>
 debug_level between: 0-4
 
 -----------------------------------------------------------------------
 Following are the commands and the instructions to run ANT on your project.
-#### Note: build.xml is present in primeNumberValidation/src folder.
+#### Note: build.xml is present in airportSecurityState/src folder.
 
 -----------------------------------------------------------------------
 ## Instruction to clean:
 
-####Command: ant -buildfile primeNumberValidation/src/build.xml clean
+####Command: ant -buildfile airportSecurityState/src/build.xml clean
 
 Description: It cleans up all the .class files that were generated when you
 compiled your code.
@@ -76,13 +76,13 @@ compiled your code.
 -----------------------------------------------------------------------
 ## Instruction to compile:
 
-####Command: ant -buildfile primeNumberValidation/src/build.xml all
+####Command: ant -buildfile airportSecurityState/src/build.xml all
 
 Description: Compiles your code and generates .class files inside the BUILD folder.
 
 -----------------------------------------------------------------------
 ## Instruction to run:
 
-####Command: ant -buildfile primeNumberValidation/src/build.xml run -Darg0=<input_file.txt> -Darg1=<number_of_threads> -Darg2=<debug_level>
+####Command: ant -buildfile airportSecurityState/src/build.xml run -Darg0=<input_file.txt> -Darg1=<output_file.txt> -Darg2=<debug_value>
 
 Note: Arguments accept the absolute path of the files.
