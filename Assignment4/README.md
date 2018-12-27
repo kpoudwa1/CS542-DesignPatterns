@@ -2,23 +2,20 @@
 
 -----------------------------------------------------------------------
 ## Description
-This project uses State pattern for maintaining the security state of an airport.
-The factors that affect the security implementation of an airport are known as SecurityFactors.
-The operation of increasing/decreasing security is increaseOrDecreaseSecurity().
-The following are the states that an airport can be in,
+This project uses State pattern for maintaining the security state of an airport. The factors that affect the security implementation of an airport are known as SecurityFactors. The operation of increasing/decreasing security is increaseOrDecreaseSecurity(). The following are the states that an airport can be in,
 - LOW_RISK
 - MODERATE_RISK
 - HIGH_RISK<br/>
 Two metrics are used to determine the state of the airport. The metrics are,
-- Average Traffic Per Day (avgTrafficPerDay)
+- Average Traffic Per Day (avgTrafficPerDay)<br/>
   Computed as ⇒ Total number of travellers ÷ Total number of days
-- Average Prohibited Items Per Day (avgProhibitedItemsPerDay)
+- Average Prohibited Items Per Day (avgProhibitedItemsPerDay)<br/>
   Computed as ⇒ Total number of prohibited items ÷ Total number of days<br/>
 The list of prohibited items,
 - Grains
 - NailCutters
 - Plants
-- EndangeredAnimals
+- EndangeredAnimals<br/>
 For each state that the airport can be in, the following are the conditions that need to be satisfied,
 - LOW_RISK
   - 0 ≤ avgTrafficPerDay < 4 OR
