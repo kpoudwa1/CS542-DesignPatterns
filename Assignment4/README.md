@@ -8,12 +8,12 @@ The operation of increasing/decreasing security is increaseOrDecreaseSecurity().
 The following are the states that an airport can be in,
 - LOW_RISK
 - MODERATE_RISK
-- HIGH_RISK
+- HIGH_RISK<br/>
 Two metrics are used to determine the state of the airport. The metrics are,
 - Average Traffic Per Day (avgTrafficPerDay)
-Computed as ⇒ Total number of travellers ÷ Total number of days
+  Computed as ⇒ Total number of travellers ÷ Total number of days
 - Average Prohibited Items Per Day (avgProhibitedItemsPerDay)
-Computed as ⇒ Total number of prohibited items ÷ Total number of days
+  Computed as ⇒ Total number of prohibited items ÷ Total number of days<br/>
 The list of prohibited items,
 - Grains
 - NailCutters
