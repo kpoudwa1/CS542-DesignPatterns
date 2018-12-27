@@ -1,7 +1,6 @@
 package airportSecurityState.util;
 
 import java.io.IOException;
-
 import airportSecurityState.airportStates.Airport;
 import airportSecurityState.airportStates.AirportContextI;
 import airportSecurityState.util.MyLogger.DebugLevel;
